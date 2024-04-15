@@ -30,7 +30,7 @@ void fillStudentByHand(Student& s)
     }
 }
 
-void printStudent(Student s, bool detailed = false)
+void printStudent(Student s, bool detailed)
 {
     printf("Студент: %s, возраст: %i, оценок: %i\n", s.name, s.age, s.marks_count);
     if (detailed)

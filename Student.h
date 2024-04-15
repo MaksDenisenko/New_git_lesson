@@ -1,4 +1,4 @@
-
+#pragma once
 struct Student
 {
     char name[100];
@@ -9,4 +9,4 @@ struct Student
 
 double getAvergeMark(Student s);
 void fillStudentByHand(Student& s);
-void printStudent(Student s, bool detailed);
+void printStudent(Student s, bool detailed = false);
