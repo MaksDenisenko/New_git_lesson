@@ -7,6 +7,7 @@
 int main()
 {
     system("chcp 1251");
+    
     Group gr;
     fillGroupByHand(gr);
     system("cls");
